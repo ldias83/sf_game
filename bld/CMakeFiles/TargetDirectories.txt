@@ -1,0 +1,4 @@
+/media/sf_game/bld/CMakeFiles/game.dir
+/media/sf_game/bld/CMakeFiles/rps_tests.dir
+/media/sf_game/bld/CMakeFiles/edit_cache.dir
+/media/sf_game/bld/CMakeFiles/rebuild_cache.dir

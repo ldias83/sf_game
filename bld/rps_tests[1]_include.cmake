@@ -1,0 +1,5 @@
+if(EXISTS "/media/sf_game/bld/rps_tests[1]_tests.cmake")
+  include("/media/sf_game/bld/rps_tests[1]_tests.cmake")
+else()
+  add_test(rps_tests_NOT_BUILT rps_tests_NOT_BUILT)
+endif()
