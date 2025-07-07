@@ -1,7 +1,11 @@
 ## Rock-Paper-Scissors ##  
 
-A compact yet **heavily-modular C++17** implementation of the classic game.  
-Ideal for portfolio use: it highlights **clean OOP design, dependency injection, Factory pattern**, and thorough unit-testing while staying small enough for a quick read.
+A deliberately **small-scope** yet **production-style C++17** project that uses the
+classic Rock-Paper-Scissors game to showcase:
+
+* **SOLID, test-driven OOP** (interfaces + mocks)
+* **Dependency Injection & Factory pattern** for easy extensibility
+* **Clean, cross-platform build** with modern CMake
 
 ---
 
@@ -101,3 +105,5 @@ Interfaces decouple components; swapping console I/O for a GUI requires no chang
    - `constexpr` helpers classify outcome (`IsRoundDraw`, `DoesUserWinRound`).  
    - Scores updated; messenger announces result.  
 3. **Finalisation** – messenger prints the final scoreboard.
+
+
